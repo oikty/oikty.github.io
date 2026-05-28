@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>oikty — portafolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav>
+  <div class="inner">
+    <a href="#" class="logo">oikty<span>.github.io</span></a>
+    <a href="https://github.com/oikty" target="_blank" class="contact-link">github ↗</a>
+  </div>
+</nav>
+
+<div class="container">
+  <section class="hero">
+    <div class="hero-tag fade-in">portafolio de proyectos</div>
+    <h1 class="fade-in">
+      <span class="dim">hola,</span><br>
+      soy <span class="highlight">Valentino Signorello</span>
+    </h1>
+    <p class="hero-desc fade-in">
+      Desarrollador de software. Acá podés ver algunos de los proyectos en los que trabajé, tanto propios como en colaboración.
+    </p>
+  </section>
+
+  <!-- ── MUNICIPALIDAD ── -->
+  <div class="section-header">
+    <span class="section-icon">🏛</span>
+    <h2>municipalidad</h2>
+  </div>
+
+  <div class="projects">
+    <a class="card fade-in" href="https://github.com/oikty/municipalidad-flet" target="_blank">
+      <div class="card-slider" onclick="event.preventDefault()">
+        <div class="slider-track">
+        <img src="imagenes/flet.png" alt="pantalla 1">
+        <img src="imagenes/flet2.jpg" alt="pantalla 2">
+        <img src="imagenes/flet3.jpg" alt="pantalla 3">
+        </div>
+        <button class="slider-btn prev" onclick="slideCard(this,-1); event.preventDefault()">‹</button>
+        <button class="slider-btn next" onclick="slideCard(this, 1); event.preventDefault()">›</button>
+        <div class="slider-dots"></div>
+    </div>
+
+      <div class="card-top">
+        <span class="card-num">01</span>
+        <span class="card-arrow">↗</span>
+      </div>
+      <div class="card-title">Municipalidad — Flet</div>
+      <p class="card-desc">Aplicación de escritorio para gestión municipal desarrollada con el framework Flet.</p>
+      <div class="card-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Flet</span>
+        <span class="tag">Desktop</span>
+      </div>
+    </a>
+
+    <a class="card fade-in" href="https://github.com/oikty/municipalidad-tkinter" target="_blank">
+      <div class="card-slider" onclick="event.preventDefault()">
+        <div class="slider-track">
+        <img src="imagenes/tkinter3.jpeg" alt="pantalla 1">
+        <img src="imagenes/tkinter.jpg" alt="pantalla 2">
+        <img src="imagenes/tkinter2.jpg" alt="pantalla 3">
+        </div>
+        <button class="slider-btn prev" onclick="slideCard(this,-1); event.preventDefault()">‹</button>
+        <button class="slider-btn next" onclick="slideCard(this, 1); event.preventDefault()">›</button>
+        <div class="slider-dots"></div>
+    </div>
+      <div class="card-top">
+        <span class="card-num">02</span>
+        <span class="card-arrow">↗</span>
+      </div>
+      <div class="card-title">Municipalidad — Tkinter</div>
+      <p class="card-desc">Versión alternativa del sistema municipal con interfaz gráfica usando Tkinter.</p>
+      <div class="card-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Tkinter</span>
+        <span class="tag">Desktop</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- ── OLIMPIADAS ── -->
+  <div class="section-header">
+    <span class="section-icon">🏅</span>
+    <h2>olimpiadas</h2>
+  </div>
+
+  <div class="projects">
+    <a class="card fade-in" href="https://olimpiadas-1.onrender.com/client/Inicio/Inicio.html" target="_blank">
+      <div class="card-slider" onclick="event.preventDefault()">
+        <div class="slider-track">
+        <img src="imagenes/login-o.png" alt="pantalla 1">
+        <img src="imagenes/login2-o.png" alt="pantalla 2">
+        <img src="imagenes/inicio-o.png" alt="pantalla 3">
+        <img src="imagenes/inicio2-o.png" alt="pantalla 1">
+        <img src="imagenes/inicio3-o.png" alt="pantalla 2">
+        <img src="imagenes/paquetes-o.png" alt="pantalla 3">
+        <img src="imagenes/paquetes2-o.png" alt="pantalla 1">
+        <img src="imagenes/autos-o.png" alt="pantalla 2">
+        <img src="imagenes/autos2-o.png" alt="pantalla 2">
+        <img src="imagenes/vuelos-o.png" alt="pantalla 2">
+        </div>
+        <button class="slider-btn prev" onclick="slideCard(this,-1); event.preventDefault()">‹</button>
+        <button class="slider-btn next" onclick="slideCard(this, 1); event.preventDefault()">›</button>
+        <div class="slider-dots"></div>
+    </div>
+      <div class="card-top">
+        <span class="card-num">03</span>
+        <span class="card-arrow">↗</span>
+      </div>
+      <div class="card-title">Olimpiadas</div>
+      <p class="card-desc">Sistema de gestión para olimpiadas. Registro, seguimiento y organización de participantes y resultados.</p>
+      <div class="card-tags">
+        <span class="tag accent">destacado</span>
+        <span class="tag">Python</span>
+      </div>
+    </a>
+    <a class="card fade-in" href="https://github.com/Jarvisgithub123/Juego" target="_blank">
+      <div class="card-slider" onclick="event.preventDefault()">
+        <div class="slider-track">
+        <div class="card-video">
+  <iframe
+    width="100%"
+    height="220"
+    src="https://www.youtube.com/embed/qd4eb3A8n2M?rel=0"
+    title="YouTube video player"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+        </div>
+        
+        <div class="slider-dots"></div>
+    </div>
+      <div class="card-top">
+        <span class="card-num">04</span>
+        <span class="card-arrow">↗</span>
+      </div>
+
+      <div class="card-title">Juego</div>
+      <p class="card-desc">Proyecto de videojuego desarrollado en colaboración.</p>
+      <p class="collab-note">↳ collab con Jarvisgithub123 y TobiasB06</p>
+      <div class="card-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Juego</span>
+      </div>
+    </a>
+    <div class="card-video">
+    
+  </div>
+    
+  </div>
+
+  <!-- ── COLEGIO ── -->
+  <div class="section-header">
+    <span class="section-icon">🎓</span>
+    <h2>colegio</h2>
+  </div>
+
+  <div class="projects">
+    
+
+    <a class="card fade-in" href="https://github.com/TobiasB06/Proyecto_horarios" target="_blank">
+      <div class="card-top">
+        <span class="card-num">06</span>
+        <span class="card-arrow">↗</span>
+      </div>
+      <div class="card-title">Proyecto Horarios</div>
+      <p class="card-desc">Sistema de gestión y organización de horarios desarrollado en colaboración.</p>
+      <p class="collab-note">↳ collab con TobiasB06 y Jarvisgithub123</p>
+      <div class="card-tags">
+        <span class="tag">Python</span>
+        <span class="tag">Horarios</span>
+      </div>
+    </a>
+
+    <a class="card fade-in" href="https://github.com/oikty/login" target="_blank">
+      <div class="card-slider" onclick="event.preventDefault()">
+        <div class="slider-track">
+        <img src="imagenes/campus.jpeg" alt="pantalla 1">
+        <img src="imagenes/campus2.jpeg" alt="pantalla 2">
+        <img src="imagenes/campus3.jpeg" alt="pantalla 3">
+        <img src="imagenes/campus4.jpeg" alt="pantalla 1">
+        <img src="imagenes/campus5.jpeg" alt="pantalla 2">
+        <img src="imagenes/campus6.jpeg" alt="pantalla 3">
+        <img src="imagenes/campus7.jpeg" alt="pantalla 1">
+        <img src="imagenes/campus9.jpeg" alt="pantalla 2">
+        </div>
+        <button class="slider-btn prev" onclick="slideCard(this,-1); event.preventDefault()">‹</button>
+        <button class="slider-btn next" onclick="slideCard(this, 1); event.preventDefault()">›</button>
+        <div class="slider-dots"></div>
+    </div>
+      <div class="card-top">
+        <span class="card-num">04</span>
+        <span class="card-arrow">↗</span>
+      </div>
+      <div class="card-title">Sistema de Login</div>
+      <p class="card-desc">Sistema de autenticación de usuarios con registro, inicio de sesión y gestión de sesiones.</p>
+      <div class="card-tags">
+        <span class="tag accent">destacado</span>
+        <span class="tag">Python</span>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <div class="inner">
+    <p>© 2026 oikty</p>
+    <a href="https://github.com/oikty" target="_blank" class="gh-link">
+      ver todos los repos en github ↗
+    </a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
